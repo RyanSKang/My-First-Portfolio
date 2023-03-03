@@ -1,11 +1,13 @@
 .Mini-img{
-    width: 200px;
-    height: 170px;
+    width: 198px;
+    height: auto;
 }
 
 .Works-Container{
-    display: flex;
-    flex-direction: column;
+    display:flexbox;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 340px;
 }
 .Main-Prj{
     width:400px;

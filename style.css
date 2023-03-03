@@ -1,0 +1,13 @@
+.Mini-img{
+    width: 200px;
+    height: 170px;
+}
+
+.Works-Container{
+    display: flex;
+    flex-direction: column;
+}
+.Main-Prj{
+    width:400px;
+    height: 340px;
+}

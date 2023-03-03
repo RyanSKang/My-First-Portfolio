@@ -13,7 +13,7 @@ font-size: 35px;
 
  li, a, button {
     font-family: 'sans-serif', 'calibri', 'Times New Roman';
-    font-weight: 500;
+    font-weight:200;
     font-size: 20px;
     color: #edf0f1;
     text-decoration: none;
@@ -36,12 +36,9 @@ font-size: 35px;
     padding: 0px 20px;
 }
 
-.Nav_Links li a {
-    transition: all 0.3s ease 0s;
-}
-
-.Nav_links li a:hover{
-    color: aqua;
+.Nav_links li, a:hover{
+    color: rgb(1,180,180);
+    font-weight: 500;
 }
 
 button{

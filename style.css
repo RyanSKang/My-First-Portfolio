@@ -2,33 +2,47 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
-    background-color: #24252a;
- }
-
- header h1{
-color:#edf0f1 ;
-margin-right: auto;
-font-size: 35px;
- }
-
- li, a, button {
-    font-family: 'sans-serif', 'calibri', 'Times New Roman';
-    font-weight:200;
-    font-size: 20px;
+    background-color: black;
+    font-family:'sans serif', 'calibri';
     color: #edf0f1;
-    text-decoration: none;
  }
+.hero{
+height: 150vh;
+width:100%;
+background-image: url(https://i.pinimg.com/originals/a6/65/46/a665463e60ef772c82286e4ee6a15353.gif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 70%;
+color: #edf0f1;
+padding: 0 8%;
+}
 
- header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px 5%;
+.nav_main h1{
+    margin-right:auto;
+    font-size: 50px;
     cursor: pointer;
- }
+}
+
+.nav_main h1 .lio{
+    color: rgba(1, 180,180);
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav_main{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 30px 10%;
+}
 
 .Nav_Links{
     list-style: none;
+    margin-left: 20%;
 } 
 
 .Nav_Links li{
@@ -42,8 +56,8 @@ font-size: 35px;
 }
 
 button{
+    margin-left: 10px;
     padding: 9px 25px;
-    margin-left: 20px;
     background-color: rgb(1, 180, 180);
     border: none;
     border-radius: 50px;
@@ -53,9 +67,9 @@ button{
 
 button:hover{
     background-color: rgba(1, 180,180, .7);
-}
+} 
 
-/* .Mini-img{
+.Mini-img{
     width: 150px;
     height: auto;
 }
@@ -70,4 +84,4 @@ button:hover{
 .Main-Prj{
     width:400px;
     height: 340px;
-} */
+}

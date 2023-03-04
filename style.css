@@ -1,9 +1,10 @@
- *{
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Montserrat:wght@500&display=swap');
+*{
     box-sizing: border-box;
     margin: 0;
     padding:0;
     background-color: black;
-    font-family:'sans serif', 'calibri';
+    font-family:'Montserrat',sans-serif;
     color: #edf0f1;
  }
 .hero{
@@ -15,6 +16,12 @@ background-repeat: no-repeat;
 background-size: 70%;
 color: #edf0f1;
 padding: 0 8%;
+}
+
+#intro{
+    color: #edf0f1;
+    font-size: 75px;
+    text-align: center;
 }
 
 .nav_main h1{
@@ -81,7 +88,20 @@ button:hover{
     height: 340px;
 }
 
+.Works-Container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 400px;
+
+}
+
 .Main-Prj{
-    width:400px;
-    height: 340px;
+    width:600px;
+    height: 400px;
+}
+
+.Mini-img{
+    width: 297px;
+    height: 200px;
 }

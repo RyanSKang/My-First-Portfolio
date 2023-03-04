@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <Link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">    
     <title>Portfolio Website</title>
 </head>
-
+<!--------NavBar--------->
 <body>    
     <header class="hero">
         <nav class="nav_main">
             <img src="Images/The Kang Dynasty.png" alt="Kang Dynasty logo" class="logo">
             <ul class="Nav_Links">
                 <li><a href="#About-Me">About Me</a></li>
-                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
@@ -26,7 +27,7 @@
    
 <main>
  <!---------About Me---------->   
-    <section id="About-Me" class="Subsections">
+    <section id="About-Me">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
@@ -34,25 +35,51 @@
                 </div>
                 <div class="about-col-2">
                     <h2 class="subtext">About Me</h2>
+                    <p>My name is Ryan Kang and I am a DU Bootcamp student.<br> Born in New York, Queens and graduated from Stony Brook University.<br> I am a Senior Production Planner and I want to pursue a Career Change in Full Stack Web Development.</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="Projects" class="Subsections">
-        <h2>Projects</h2>
-        <!-- <div class="Works-Container">
-        <img class="Main-Prj" 
-        <div class="sub-container">
-        <img class= "Mini-img" 
-        </div>  -->
+<!------------Portfolio------------->
+    <section id="Portfolio">
+        <div class="container">
+            <h2 class="subtext">My Work</h2>
+            <div class="work-list"> 
+                <div class="work-main">
+                    <img src="Images/Portfolio img.jpeg" alt="A picture representing my Portfolio work">
+                    <div class="layer">
+                        <h3>Portfolio Web-Application</h3>
+                        <p>The web application displays my Portfolio using CSS and HTML.</p>   
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>                
+                    </div>
+                </div>
+                <div class="work-main">
+                    <img src="Images/shutterstock_1495869476.jpg" alt="A picture representing my Horiseon Module 1 work">
+                    <div class="layer">
+                        <h3>Module Week 1 Challenge</h3>
+                        <p>This web application displays my use in meaningful semantics to display a functional Web-Application.</p>             
+                        <a href="https://ryanskang.github.io/Module-Challenge-1/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                    </div>
+                </div>
+                <div class="work-main">
+                    <img src="Images/Prework Project.png" alt="A picture representing my Pre-Course Project work">
+                    <div class="layer">
+                        <h3>Pre-Course Project</h3>
+                        <p>This application is a study guide using a little bit of HTML, CSS, Javascript, and Git. It is a study guide with infromation I personally deemed valuable prior to the course.</p>    
+                        <a href="https://ryanskang.github.io/Prework-Study-Guide/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                    </div>
+                </div>
+            </div>    
+        </div>
+       
     </section>
+<!------------Contact Me------------->
+    <section id="Contact">
+        <div class="container">
 
-    <section id="Contact" class="Subsections">
-        <h2>Contact Me</h2>
+        </div>
+        
     </section>
-
 </main>   
-
 </body>
 </html>

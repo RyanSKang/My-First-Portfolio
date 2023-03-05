@@ -29,7 +29,6 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .logo{
     width: 250px;
 }
@@ -165,4 +164,89 @@ transform: scale(1.1);
 }
 .work-main:hover .layer{
 height:100%;    
+}
+/*----------Contact Me---------*/
+#Contact{
+    padding: 50px 0;
+    margin-left: 7%;
+    color: #edf0f1;
+}
+.contact-list{
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+/*----------Footer-----------*/
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 20px;
+}
+footer i{
+    color: #01b4b4;
+}
+
+.fa-solid {
+    display: none;
+}
+/*--------Media Queries for small screens: 600px--------*/
+@media screen and (max-width: 600px){
+    .header-text{
+        margin-top:100px;
+        font-size: 20px;
+    }
+    .header-text h1{
+        font-size: 20px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .about-col-1 img{
+        border-radius: 15px;
+        margin-left: 5%;
+    }
+    .about-col-1{
+        flex-basis: 40%;
+    }
+    .subtext{
+        font-size: 35px;
+        font-weight: bold;
+        color: #01b4b4;
+    }
+    .about-col-2 p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .subtext{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .work-list{
+        display: block;
+        flex-direction: column;
+        width: 450px;
+        margin: auto;
+    }
+    .work-main{
+        margin-top: 20px;
+    }
+    .contact-list li{
+        display: block;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        line-height: 2;
+    }
+    footer{
+        font-size: 16px;
+    }
 }

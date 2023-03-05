@@ -162,6 +162,9 @@ nav ul li a:hover::after{
 .work-main:hover img{
 transform: scale(1.1);
 }
+.image-title:hover img{
+color: transparent;
+}
 .work-main:hover .layer{
 height:100%;    
 }

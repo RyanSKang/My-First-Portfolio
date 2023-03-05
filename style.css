@@ -214,10 +214,14 @@ footer i{
         margin-left: 5%;
     }
     .about-col-1{
-        flex-basis: 50%;
+        flex-basis: 30%;
     }
     .about-col-2{
-        flex-basis: 40%;
+        flex-basis: 55%;
+    }
+    .about-col-2 p{
+        font-size: 15px;
+        line-height: 1;
     }
     .subtext{
         font-size: 30px;
@@ -272,6 +276,15 @@ footer i{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .about-col-1{
+        flex-basis: 30%;
+    }
+    .about-col-2{
+        flex-basis: 60%;
+    }
+    .about-col-2 p{
+        font-size: 20px;
     }
     .work-list{
         display: inline-block;

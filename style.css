@@ -14,7 +14,7 @@ color: #edf0f1;
 .hero{
 height: 100vh;
 width:100%;
-background-image:url(https://raw.githubusercontent.com/RyanSKang/My-First-Portfolio/main/Images/wp6899569-dark-mountain-wallpapers.jpg);
+background-image:url("https://raw.githubusercontent.com/RyanSKang/My-First-Portfolio/main/Images/Mountain%20Wallpaper.jpg");
 background-size: cover;
 background-position: center;
 padding: 0 8%;

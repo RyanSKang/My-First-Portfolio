@@ -7,7 +7,7 @@ The importance of creating a portfolio is to introduce yourself and display your
 
 No Installation required but you can access my deployed application via this link: 
 
-<a href="https://ryanskang.github.io/My-First-Portfolio/">My First Porotfolio</a>
+<a href="https://ryanskang.github.io/My-First-Portfolio/" target="_blank">My First Porotfolio</a>
 
 ## Usage
 
